@@ -3,11 +3,20 @@
 This project focuses on two tasks: optimizing SQL query performance for a book metadata dataset (Task 1) and classifying book genres using deep learning and cover images (Task 2).
 
 ---
+## Dependencies
+The Python dependencies for this project are listed in the requirements.txt file, located in the parent directory: STATS507_Public/requirements.txt.
 
+To install the required packages, navigate to the STATS507_Public directory and run:
+
+```bash
+pip install -r requirements.txt
+```
+---
 ## Folder Structure
 
 ![Alt Text](folder_layout.png)
 
+---
 ## Task 1: Query Optimization
 
 **File:** Task1_Optimization.ipynb
