@@ -6,18 +6,7 @@ This project focuses on two tasks: optimizing SQL query performance for a book m
 
 ## Folder Structure
 
-![Alt Text](Screenshot 2024-12-09 at 2.51.12 PM.png)
-
-Final_Project/
-│
-├── Task1_Optimization.ipynb      # Jupyter notebook for Task 1
-├── Task2_GenreClassification.py  # Python script for Task 2
-├── data/                         # Data folder containing CSV files
-│   ├── book30-listing-train.csv
-│   ├── book30-listing-test.csv
-│   ├── bookcover30-labels-train.txt
-│   ├── bookcover30-labels-test.txt
-└── README.md                     # Project documentation
+![Alt Text](folder_layout.png)
 
 ## Task 1: Query Optimization
 
