@@ -52,3 +52,25 @@ Testing Data: book30-listing-test.csv, bookcover30-labels-test.txt
 Number of Genres: 30
 Data Folder: Place all dataset files in the data/ folder within the Final_Project directory.
 
+How to Run
+To execute Task 2, run the script using the following command:
+
+python Task2_GenreClassification.py output
+
+
+This will:
+
+1.) Download approximately 1,700 images from the training and testing datasets.
+2.) Preprocess images (data augmentation with rotation, cropping, and color jittering).
+3.) Train the model and evaluate its performance.
+
+Warning: The script is configured to download approximately 1,700 images by default. Ensure you have a stable internet connection and sufficient storage space. Adjust the NUM_DOWNLOADS_TRAIN and NUM_DOWNLOADS_TEST constants in the script if you wish to limit the downloads.
+
+Output
+The script generates:
+
+A trained model for genre classification.
+Accuracy metrics and confusion matrix visualizations.
+
+Disclaimer
+Execution times for Task 1 may vary depending on your hardware and system configuration. For Task 2, ensure you have adequate system resources to download and process the images. For large datasets or extended experiments, consider using a high-performance computing platform like Great Lakes.
