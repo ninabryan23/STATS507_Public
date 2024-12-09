@@ -6,6 +6,8 @@ This project focuses on two tasks: optimizing SQL query performance for a book m
 
 ## Folder Structure
 
+![Alt Text](Screenshot 2024-12-09 at 2.51.12 PM.png)
+
 Final_Project/
 │
 ├── Task1_Optimization.ipynb      # Jupyter notebook for Task 1
